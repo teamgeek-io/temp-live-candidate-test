@@ -1,0 +1,73 @@
+#sidebar {
+    border: 2px solid #ddd;
+    height: 100vh;
+    box-shadow: 1px 0px 9px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#content {
+    height: 100vh;
+    left: 300px;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+#logo {
+    float: right;
+}
+
+#logo::after {
+    display: inline;
+    content: ' Test #v1';
+}
+
+body {
+    background: #1d1d1d;
+}
+
+.container {
+    background: #e3e3e3;
+}
+
+.content-body {
+    padding: 20px;
+}
+
+.clickable-list-item:hover {
+    cursor: pointer;
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+}
+
+.fixed-bottom {
+    padding: 10px;
+}
+
+#test-instructions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 99999;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#test-instructions div {
+    padding: 15px 40px;
+}
+
+#test-instructions-btn {
+    --bs-btn-color: #ffc107;
+    --bs-btn-bg: #000000;
+}
+
+.toast {
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    z-index: 999;
+}

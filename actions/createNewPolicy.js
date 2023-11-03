@@ -1,0 +1,3 @@
+function createNewPolicy() {
+    Policy.createPolicy();
+}
